@@ -466,7 +466,7 @@ public class Conference
     private void dominantSpeakerChanged()
     {
         Endpoint dominantSpeaker = speechActivity.getDominantEndpoint();
-
+        System.out.println("Dominant speaker changed");
         if (logger.isTraceEnabled())
         {
             logger.trace(

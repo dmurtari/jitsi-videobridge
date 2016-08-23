@@ -143,6 +143,8 @@ public class LastNController
      */
     public void setLastN(int lastN)
     {
+
+        System.out.println("Setting LASTN to " + lastN);
         if (logger.isDebugEnabled())
         {
             logger.debug("Setting lastN=" + lastN);
